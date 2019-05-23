@@ -59,3 +59,9 @@ def merge_sort(array)
 
   mergesort_iter(array)
 end
+
+arr = generate_array(10000)
+arr2 = generate_array(10000)
+
+time_method(:bubble_sort, arr)
+time_method(:merge_sort, arr2)
